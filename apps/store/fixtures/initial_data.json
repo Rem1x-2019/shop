@@ -1,0 +1,110 @@
+[
+    {
+        "model": "store.product",
+        "pk": 1,
+        "fields": {
+            "name": "Product 1",
+            "price": "19.99",
+            "description": "This is a great product number 1.",
+            "category": "Featured",
+            "is_featured": true,
+            "image_url": "https://picsum.photos/seed/100/600/400"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 2,
+        "fields": {
+            "name": "Product 2",
+            "price": "24.99",
+            "description": "This is a great product number 2.",
+            "category": "Featured",
+            "is_featured": true,
+            "image_url": "https://picsum.photos/seed/101/600/400"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 3,
+        "fields": {
+            "name": "Product 3",
+            "price": "29.99",
+            "description": "This is a great product number 3.",
+            "category": "Featured",
+            "is_featured": true,
+            "image_url": "https://picsum.photos/seed/102/600/400"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 4,
+        "fields": {
+            "name": "Product 4",
+            "price": "34.99",
+            "description": "This is a great product number 4.",
+            "category": "Essentials",
+            "is_featured": false,
+            "image_url": "https://picsum.photos/seed/103/600/400"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 5,
+        "fields": {
+            "name": "Product 5",
+            "price": "39.99",
+            "description": "This is a great product number 5.",
+            "category": "Essentials",
+            "is_featured": false,
+            "image_url": "https://picsum.photos/seed/104/600/400"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 6,
+        "fields": {
+            "name": "Product 6",
+            "price": "44.99",
+            "description": "This is a great product number 6.",
+            "category": "Essentials",
+            "is_featured": false,
+            "image_url": "https://picsum.photos/seed/105/600/400"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 7,
+        "fields": {
+            "name": "Product 7",
+            "price": "49.99",
+            "description": "This is a great product number 7.",
+            "category": "New Arrivals",
+            "is_featured": false,
+            "image_url": "https://picsum.photos/seed/106/600/400"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 8,
+        "fields": {
+            "name": "Product 8",
+            "price": "54.99",
+            "description": "This is a great product number 8.",
+            "category": "New Arrivals",
+            "is_featured": false,
+            "image_url": "https://picsum.photos/seed/107/600/400"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 9,
+        "fields": {
+            "name": "Product 9",
+            "price": "59.99",
+            "description": "This is a great product number 9.",
+            "category": "New Arrivals",
+            "is_featured": false,
+            "image_url": "https://picsum.photos/seed/108/600/400"
+        }
+    }
+]

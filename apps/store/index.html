@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Debug Page</title>
+</head>
+<body>
+  <h1>DEBUG: Product List</h1>
+
+  <p>Total Products: {{ featured_products|length }}</p>
+
+  <ul>
+    {% for product in featured_products %}
+    <li>
+      ID: {{ product.id }}<br>
+      Name: {{ product.name }}<br>
+      Category: {{ product.category.name }}<br>
+      Price: {{ product.price }}<br>
+      Image URL: {{ product.image_url }}
+    </li>
+    {% empty %}
+    <li>No featured products found.</li>
+    {% endfor %}
+  </ul>
+
+</body>
+</html>
